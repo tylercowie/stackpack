@@ -1,0 +1,20 @@
+{
+  "name": "nextjs_website",
+  "version": "1.0.0",
+  "description": "A static website using Next.js, with content managed by Directus CMS, and CI/CD handled by Vercel.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": ["nextjs", "directus", "vercel"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "axios": "latest"
+  }
+}

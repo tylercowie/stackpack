@@ -1,0 +1,9 @@
+# vercel_ci_cd/.vercelignore
+
+node_modules
+.npm
+.next
+out
+coverage
+.DS_Store
+*.log

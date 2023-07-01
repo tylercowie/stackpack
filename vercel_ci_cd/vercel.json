@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "name": "nextjs_website",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ],
+  "env": {
+    "DIRECTUS_URL": "@directus_url"
+  }
+}
